@@ -28,7 +28,7 @@ const notes = [
 ];
 
 const photos = [
-  ["images/our-cats.jpg", "Keeping the window", "The gray one and the cream one, both on duty by the glass."],
+  ["images/our-cats.jpg?v=4", "Keeping the window", "The gray one and the cream one, both on duty by the glass."],
   ["images/tabby-kitten.jpg", "The small tabby", "A kitten on the terrazzo, ears up, already considering you."],
   ["images/paw-up.jpg", "One paw up", "A golden kitten with a question, and one paw already in the air."],
   ["images/sofa-kitten.jpg", "Hello from the sofa", "A tiny folded-ear kitten, one paw on the cushion, the other holding the conversation."],
