@@ -1,121 +1,133 @@
 const jokes = [
-  "My wife said we need more spontaneity in the bedroom. So I hid in the closet and jumped out naked. She was on a video call with work. Human resources called it a hostile workaround.",
-  "She whispered that she wanted me to wreck her. I said I don't do home repairs. She left. The faucet is still dripping. So is my pride.",
-  "I tried dirty talk. I told her I was going to do unspeakable things. Then I opened our text thread and read last night's argument out loud. She said that was too far.",
-  "I like my coffee the way I like my partners. Hot, a little bitter, and gone before I have to talk about feelings.",
-  "The Kama Sutra has dozens of positions. My favorite is the one where I am already asleep and nobody is disappointed.",
-  "He asked how many people I had slept with. I said, define slept. He said, you know what I mean. I said, define you.",
-  "I bought candles, wine, and new sheets. She walked in, looked around, and said this is a lot. I said so is faking it for six months, but here we are.",
-  "Dating tip. If someone texts you, you up, at one in the morning, they are not asking about your sleep schedule. They are asking whether your standards have already gone to bed.",
-  "My therapist says I use humor to avoid intimacy. I asked if she wanted to hear a joke about my penis. She ended the session early, which I am counting as encouragement.",
-  "Rule one of a threesome is communication. Rule two. If you are the person who suggested board games, you are not in a threesome. You are the chaperone.",
-  "I told my date I was into casual sex. She said she preferred dressed up. So I put on a tie and disappointed her formally.",
-  "She asked me to talk dirty. I looked her in the eye and said the sink is full, the towels are damp, and I have not changed these sheets since the last time we did this.",
-  "I joined a nudist group for the community. It is mostly people standing around, unsure where to put their hands, which is also how I date.",
-  "Foreplay matters. That is why I spend twenty minutes trying to get the laptop onto the television before anyone has taken off their shoes."
+  "I asked the kitten what she wanted for dinner. She said the red dot. I said that is not a food. She said that sounds like a you problem.",
+  "Kittens spend most of the day asleep. The rest of the day is a performance review of your life choices.",
+  "My kitten brought me a toy mouse at three in the morning. I believe it was a quarterly report.",
+  "Why did the kitten sit on the keyboard? She was making sure the work got purr-reviewed.",
+  "A kitten will ignore the toy you bought, and then lose her whole mind over the receipt.",
+  "I told the kitten the counter was closed. We are now in mediation.",
+  "What do you call a pile of kittens? A meow-ntain. They accept the title. They do not accept being moved.",
+  "The kitten knocked a glass off the table, then looked at me like I had done it with my thoughts.",
+  "Why did the kitten join the band? She already knew how to pause for a very long time, and then make one enormous noise.",
+  "I bought a kitten a tiny bed. She sleeps in the box. The bed is now a sculpture called No Thank You.",
+  "How does a kitten answer the phone? She says please hold, I am in a sunbeam, and this meeting could have been a nap.",
+  "A kitten's love language is sitting on the exact sentence you were reading.",
+  "I asked if she wanted to go outside. She looked at the door, looked at me, and chose the window, where the birds are television.",
+  "What did the kitten say to the paper bag? If I fits, I sits. If I sits, this is my house now.",
+  "The kitten keeps a strict schedule. Nap, zoom, snack, judge, nap. She has never once been late to the judging."
+];
+
+const notes = [
+  "You can rest. The sunbeam will wait.",
+  "Chrisi, you are allowed to take up space, the way a kitten does.",
+  "Something small and good is enough for today.",
+  "If the day was loud, this is the quiet part.",
+  "A kitten would sit beside you and ask for nothing but your company.",
+  "You do not have to earn a soft place to land.",
+  "Hello. This window was made so you could have a little joy on purpose.",
+  "Stay as long as you like. There is another kitten whenever you want one."
 ];
 
 const photos = [
-  ["images/ridge.jpg", "One person, a lot of mountain", "Late light on a green ridge, and somebody small enough to make the view feel huge."],
-  ["images/valley.jpg", "Yosemite Valley", "A river catching the last orange light between the granite walls."],
-  ["images/stars.jpg", "Snow and a meteor", "Winter peaks under a bright smear of the Milky Way."],
-  ["images/galaxy.jpg", "A purple sky", "Stars, one long streak, and the ridge gone black."],
-  ["images/beach.jpg", "Warm water", "A quiet beach while the sun is still sitting on the horizon."],
-  ["images/forest.jpg", "The path in", "A dirt track through tall trunks and green light."],
-  ["images/falls.jpg", "Multnomah Falls", "The tall fall in Oregon, with the stone bridge parked in front of it."],
-  ["images/gates.jpg", "Fuji at dusk", "A pagoda in the foreground, the mountain pale behind the city."],
-  ["images/street.jpg", "Evening street", "Two people in kimono, a pagoda, and the lamps just coming on."],
-  ["images/crossing.jpg", "Tokyo in the rain", "Neon, wet pavement, and a crossing that does not seem to pause."],
-  ["images/city.jpg", "Manhattan, low sun", "The light cuts straight down a street between the towers."],
-  ["images/night.jpg", "Lower Manhattan", "One World Trade at dusk, and the moon already up."],
-  ["images/fog.jpg", "Cliff and a road", "Green rock, low cloud, and a single road bending through the valley."],
-  ["images/hills.jpg", "The stone spiral", "A ring of rocks in a bright glen, with the sun dropped between the hills."],
-  ["images/lake.jpg", "Turquoise water", "Rowboats on a clear alpine lake, mountains stacked behind them."],
-  ["images/peak.jpg", "The far snow", "Spruce in the foreground, a wide valley, and snow still sitting on the high peaks."]
+  ["images/our-cats.jpg", "Keeping the window", "The gray one and the cream one, both on duty by the glass."],
+  ["images/tabby-kitten.jpg", "The small tabby", "A kitten on the terrazzo, ears up, already considering you."],
+  ["images/paw-up.jpg", "One paw up", "A golden kitten with a question, and one paw already in the air."],
+  ["images/sofa-kitten.jpg", "Hello from the sofa", "A tiny folded-ear kitten, one paw on the cushion, the other holding the conversation."],
+  ["images/leaves.jpg", "Autumn kitten", "A white kitten on her back, arranged among yellow leaves like she planned the whole picture."],
+  ["images/bandana.jpg", "The yellow bandana", "A kitten in a bandana, mid-laugh, as if you just said something excellent."],
+  ["images/asleep.jpg", "Asleep on the tile", "A fluffy orange cat, one paw over her face, completely done for the day."],
+  ["images/table-paws.jpg", "Paws on the table", "An orange cat with both paws over the edge, waiting to be consulted."],
+  ["images/chin.jpg", "Chin scratches", "A calico with her eyes closed, accepting the scratch as her due."],
+  ["images/loaf.jpg", "The loaf", "A tabby folded into a perfect loaf, green eyes still on duty."],
+  ["images/blue-eyes.jpg", "Blue eyes", "A pale cat looking up, as if the ceiling just told a secret."],
+  ["images/white-fluff.jpg", "White fluff", "A long-haired white cat against a bright blue wall, pink nose, no urgent plans."],
+  ["images/stretch.jpg", "The long stretch", "An orange cat in a full morning stretch, tail up, front paws as far as they go."],
+  ["images/sunglasses.jpg", "The cool one", "A gray folded-ear cat in tiny gold sunglasses. The basket behind her is not as cool."],
+  ["images/blanket.jpg", "Under the blanket", "A tabby tucked in, only the face showing, eyes wide like she has been found."],
+  ["images/green-eyes.jpg", "Against the sky", "A tabby face and two green eyes, with nothing behind her but blue."],
+  ["images/stairs.jpg", "On the step", "A tabby sitting halfway up the stairs, tail hanging down, in no hurry to choose a floor."],
+  ["images/tuxedo.jpg", "Paws over the rail", "A black-and-white cat with both white paws draped over a rail, supervising."],
+  ["images/serious.jpg", "The committee", "A very round, very serious cat by the window. She has notes."]
 ].map(([src, title, note]) => ({ src, title, note }));
 
 const videos = [
   {
-    id: "0fKBhvDjuy0",
-    title: "Powers of Ten",
-    channel: "Eames Office",
-    length: "9 minutes",
-    why: "A picnic blanket in Chicago, then a jump outward every ten seconds until the film runs out of universe. Then it comes back, all the way into a proton."
+    id: "0Bmhjf0rKe8",
+    title: "Surprised Kitty",
+    channel: "rozzzafly",
+    length: "a very short clip",
+    why: "The original. A kitten hears a noise, and her whole face participates."
   },
   {
-    id: "qybUFnY7Y8w",
-    title: "This Too Shall Pass",
-    channel: "OK Go",
-    length: "4 minutes",
-    why: "A Rube Goldberg machine the size of a warehouse, timed to the song. One take. You can see the panic in the good way."
+    id: "IuHnAq6PMT4",
+    title: "Copy Cat",
+    channel: "Simon's Cat",
+    length: "about a minute and a half",
+    why: "A kitten tries to do whatever the grown cat does. The grown cat regrets being a role model."
   },
   {
-    id: "ysa5OBhXz-Q",
-    title: "How Wolves Change Rivers",
-    channel: "Sustainable Human",
-    length: "about 4 minutes",
-    why: "A short film about Yellowstone, and how putting wolves back moved the deer, the trees, and eventually the shape of the river."
+    id: "CLnHzv7OKao",
+    title: "Muddy Paws",
+    channel: "Simon's Cat",
+    length: "a short film",
+    why: "One small kitten, a great deal of mud, and a house that was clean a moment ago."
   },
   {
-    id: "uD4izuDMUQA",
-    title: "Timelapse of the Future",
-    channel: "melodysheep",
-    length: "29 minutes",
-    why: "From this year to the end of time. Stars burn out, black holes evaporate, and the soundtrack stays with you."
+    id: "P3y8vc-3iVU",
+    title: "Bed Sheets",
+    channel: "Simon's Cat",
+    length: "a short film",
+    why: "Making the bed becomes a sport. The kitten is winning."
   },
   {
-    id: "LXb3EKWsInQ",
-    title: "Costa Rica in 4K",
-    channel: "Jacob + Katie Schwarz",
-    length: "a scenic flight",
-    why: "Coast, cloud forest, and water, shot like the country is showing off and knows it."
+    id: "G5FUH3eoizc",
+    title: "Mirror Mirror",
+    channel: "Simon's Cat",
+    length: "a short film",
+    why: "A kitten meets the other kitten in the mirror and takes the rivalry personally."
   },
   {
-    id: "zSWdZVtXT7E",
-    title: "Interstellar, the trailer",
-    channel: "Warner Bros.",
-    length: "about 2 minutes",
-    why: "The organ, the dock, the corn. A trailer that still feels like a whole movie."
+    id: "sz-UQfw8Qeg",
+    title: "Scratch Post",
+    channel: "Simon's Cat",
+    length: "a short film",
+    why: "There is a perfectly good scratching post. The kitten has other ideas about the furniture."
   },
   {
-    id: "fJ9rUzIMcZQ",
-    title: "Bohemian Rhapsody",
-    channel: "Queen",
-    length: "about 6 minutes",
-    why: "The official video, remastered. Opera, stomp, and the guitar solo everybody still tries to air-conduct."
+    id: "TayIfVa0QPs",
+    title: "Waiting Game",
+    channel: "Simon's Cat",
+    length: "a short film",
+    why: "Patience, from a kitten's point of view, lasts about four seconds."
   },
   {
-    id: "OPf0YbXqDm0",
-    title: "Uptown Funk",
-    channel: "Mark Ronson and Bruno Mars",
-    length: "about 4 minutes",
-    why: "A horn section, a sidewalk, and Bruno Mars dressed like the evening already went well."
+    id: "69m4gc0uSlA",
+    title: "Kitten Surprise",
+    channel: "Simon's Cat",
+    length: "about 3 minutes",
+    why: "The day the kitten arrives. Soft, funny, and a little bit of a love story."
   },
   {
-    id: "jNQXAC9IVRw",
-    title: "Me at the zoo",
-    channel: "jawed",
-    length: "19 seconds",
-    why: "The first video ever posted to YouTube. Elephants, a bad mic, and the start of the whole website."
+    id: "YExoq62sOrQ",
+    title: "Kitten Origins",
+    channel: "Simon's Cat",
+    length: "about 9 minutes",
+    why: "The longer color version of how the kitten came home. Worth the whole cup of tea."
   }
 ];
 
 const stage = document.querySelector("#stage");
-const gate = document.querySelector("#gate");
+const purrButton = document.querySelector("#purr");
 let lastJoke = -1;
 let lastPhoto = -1;
 let lastVideo = -1;
+let lastNote = -1;
+let purr = null;
 
 function pickIndex(length, previous) {
   if (length < 2) return 0;
   let index = previous;
   while (index === previous) index = Math.floor(Math.random() * length);
   return index;
-}
-
-function clearStage() {
-  if (window.speechSynthesis) speechSynthesis.cancel();
-  stage.replaceChildren();
 }
 
 function button(className, label, onClick) {
@@ -127,10 +139,69 @@ function button(className, label, onClick) {
   return node;
 }
 
+function stopPurr() {
+  purrButton.setAttribute("aria-pressed", "false");
+  if (!purr) return;
+  const { ctx, gain, sources } = purr;
+  const handle = purr;
+  purr = null;
+  const t = ctx.currentTime;
+  gain.gain.cancelScheduledValues(t);
+  gain.gain.setValueAtTime(Math.max(gain.gain.value, 0.0001), t);
+  gain.gain.linearRampToValueAtTime(0.0001, t + 0.25);
+  for (const source of sources) source.stop(t + 0.3);
+  setTimeout(() => {
+    if (purr !== handle) ctx.close();
+  }, 400);
+}
+
+function startPurr() {
+  stopPurr();
+  const ctx = new AudioContext();
+  const length = ctx.sampleRate * 2;
+  const buffer = ctx.createBuffer(1, length, ctx.sampleRate);
+  const data = buffer.getChannelData(0);
+  let last = 0;
+  for (let i = 0; i < length; i += 1) {
+    const white = Math.random() * 2 - 1;
+    last = (last + 0.02 * white) / 1.02;
+    data[i] = last * 3.5;
+  }
+  const noise = ctx.createBufferSource();
+  noise.buffer = buffer;
+  noise.loop = true;
+  const filter = ctx.createBiquadFilter();
+  filter.type = "lowpass";
+  filter.frequency.value = 240;
+  const gain = ctx.createGain();
+  gain.gain.value = 0.11;
+  const lfo = ctx.createOscillator();
+  lfo.type = "sine";
+  lfo.frequency.value = 26;
+  const lfoGain = ctx.createGain();
+  lfoGain.gain.value = 0.07;
+  noise.connect(filter);
+  filter.connect(gain);
+  lfo.connect(lfoGain);
+  lfoGain.connect(gain.gain);
+  gain.connect(ctx.destination);
+  noise.start();
+  lfo.start();
+  ctx.resume();
+  purr = { ctx, gain, sources: [noise, lfo] };
+  purrButton.setAttribute("aria-pressed", "true");
+}
+
+function clearStage() {
+  if (window.speechSynthesis) speechSynthesis.cancel();
+  stopPurr();
+  stage.replaceChildren();
+}
+
 function chooseVoice() {
   const voices = window.speechSynthesis ? speechSynthesis.getVoices() : [];
   return (
-    voices.find((voice) => voice.lang === "en-US" && /samantha|aaron|nicky|google/i.test(voice.name)) ||
+    voices.find((voice) => voice.lang === "en-US" && /samantha|karen|moira|google/i.test(voice.name)) ||
     voices.find((voice) => voice.lang === "en-US") ||
     voices.find((voice) => voice.lang.toLowerCase().startsWith("en")) ||
     null
@@ -143,12 +214,12 @@ function speak(text, status) {
     return;
   }
   if (!window.isSecureContext) {
-    status.textContent = "Reading aloud needs localhost or https. On a plain network address, the joke stays on the page.";
+    status.textContent = "Reading aloud needs localhost or https. The joke is still on the page.";
     return;
   }
   const utter = new SpeechSynthesisUtterance(text);
-  utter.rate = 0.98;
-  utter.pitch = 0.96;
+  utter.rate = 0.96;
+  utter.pitch = 1.04;
   const voice = chooseVoice();
   if (voice) utter.voice = voice;
   utter.onstart = () => { status.textContent = "Speaking."; };
@@ -158,30 +229,40 @@ function speak(text, status) {
   speechSynthesis.speak(utter);
 }
 
+function showHome() {
+  clearStage();
+  lastNote = pickIndex(notes.length, lastNote);
+  const title = document.createElement("p");
+  title.className = "empty-title";
+  title.textContent = "The sunbeam is free.";
+  const note = document.createElement("p");
+  note.className = "note";
+  note.textContent = notes[lastNote];
+  const actions = document.createElement("div");
+  actions.className = "actions";
+  actions.append(button("text-btn", "Another note", showHome));
+  stage.append(title, note, actions);
+}
+
 function showJoke() {
   clearStage();
   lastJoke = pickIndex(jokes.length, lastJoke);
   const text = jokes[lastJoke];
-
   const kicker = document.createElement("p");
   kicker.className = "card-kicker";
-  kicker.textContent = "Adult joke";
-
+  kicker.textContent = "A kitten joke";
   const quote = document.createElement("p");
   quote.className = "joke-text";
   quote.textContent = text;
-
   const status = document.createElement("p");
   status.className = "status";
   status.textContent = "Getting a voice…";
-
   const actions = document.createElement("div");
   actions.className = "actions";
   actions.append(
     button("solid-btn", "Say it again", () => speak(text, status)),
     button("text-btn", "Another joke", showJoke)
   );
-
   stage.append(kicker, quote, status, actions);
   speak(text, status);
 }
@@ -190,34 +271,37 @@ function showPhoto() {
   clearStage();
   lastPhoto = pickIndex(photos.length, lastPhoto);
   const photo = photos[lastPhoto];
-
   const frame = document.createElement("div");
   frame.className = "photo-frame";
   const image = document.createElement("img");
   image.src = photo.src;
   image.alt = photo.title;
+  const boopLine = document.createElement("p");
+  boopLine.className = "status";
+  boopLine.textContent = "Tap the picture for a boop.";
+  frame.addEventListener("click", () => {
+    image.classList.remove("boop");
+    void image.offsetWidth;
+    image.classList.add("boop");
+    boopLine.textContent = "Boop.";
+  });
   frame.append(image);
-
   const title = document.createElement("h2");
   title.className = "card-title";
   title.textContent = photo.title;
-
   const note = document.createElement("p");
   note.className = "note";
   note.textContent = photo.note;
-
   const actions = document.createElement("div");
   actions.className = "actions";
-  actions.append(button("solid-btn", "Another photo", showPhoto));
-
-  stage.append(frame, title, note, actions);
+  actions.append(button("solid-btn", "Another picture", showPhoto));
+  stage.append(frame, title, note, boopLine, actions);
 }
 
 function showVideo() {
   clearStage();
   lastVideo = pickIndex(videos.length, lastVideo);
   const video = videos[lastVideo];
-
   const frame = document.createElement("div");
   frame.className = "frame";
   const iframe = document.createElement("iframe");
@@ -226,15 +310,12 @@ function showVideo() {
   iframe.allow = "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share";
   iframe.allowFullscreen = true;
   frame.append(iframe);
-
   const title = document.createElement("h2");
   title.className = "card-title";
   title.textContent = video.title;
-
   const note = document.createElement("p");
   note.className = "note";
   note.textContent = `${video.channel} · ${video.length}. ${video.why}`;
-
   const actions = document.createElement("div");
   actions.className = "actions";
   const open = document.createElement("a");
@@ -243,45 +324,56 @@ function showVideo() {
   open.target = "_blank";
   open.rel = "noopener noreferrer";
   open.textContent = "Open on YouTube";
-  open.style.textDecoration = "none";
-  open.style.display = "inline-block";
-  actions.append(open, button("text-btn", "Another video", showVideo));
-
+  actions.append(open, button("text-btn", "Another clip", showVideo));
   stage.append(frame, title, note, actions);
 }
 
-document.querySelector("#joke").addEventListener("click", () => {
-  if (sessionStorage.getItem("lounge-adult") === "yes") {
-    showJoke();
+function showPurr() {
+  if (purr) {
+    clearStage();
+    const title = document.createElement("p");
+    title.className = "empty-title";
+    title.textContent = "The purr settled.";
+    const note = document.createElement("p");
+    note.className = "note";
+    note.textContent = "Come back whenever you want it again.";
+    stage.append(title, note);
     return;
   }
-  gate.showModal();
-});
+  clearStage();
+  startPurr();
+  const wrap = document.createElement("div");
+  wrap.className = "purr-wrap";
+  const orb = document.createElement("div");
+  orb.className = "orb on";
+  const title = document.createElement("p");
+  title.className = "purr-title";
+  title.textContent = "Purring for you.";
+  const note = document.createElement("p");
+  note.className = "note";
+  note.textContent = "Leave it on while you sit. Press the button again when you have had enough.";
+  wrap.append(orb, title, note);
+  stage.append(wrap);
+}
 
-document.querySelector("#allow").addEventListener("click", () => {
-  sessionStorage.setItem("lounge-adult", "yes");
-  gate.close();
-  showJoke();
-});
-
-document.querySelector("#deny").addEventListener("click", () => {
-  gate.close();
-});
-
+document.querySelector("#joke").addEventListener("click", showJoke);
 document.querySelector("#photo").addEventListener("click", showPhoto);
 document.querySelector("#video").addEventListener("click", showVideo);
+purrButton.addEventListener("click", showPurr);
 
 document.addEventListener("keydown", (event) => {
   if (event.metaKey || event.ctrlKey || event.altKey) return;
-  if (gate.open) return;
   const target = event.target;
   if (target && (target.tagName === "INPUT" || target.tagName === "TEXTAREA")) return;
-  if (event.key === "1") document.querySelector("#joke").click();
+  if (event.key === "1") showJoke();
   if (event.key === "2") showPhoto();
   if (event.key === "3") showVideo();
+  if (event.key === "4") showPurr();
 });
 
 if (window.speechSynthesis) {
   speechSynthesis.getVoices();
   speechSynthesis.addEventListener("voiceschanged", () => speechSynthesis.getVoices());
 }
+
+showHome();
