@@ -1,0 +1,260 @@
+:root {
+  --ink: #1c140f;
+  --paper: #f6efe4;
+  --muted: #6f6256;
+  --line: rgba(28, 20, 15, 0.12);
+  --red: #9c3140;
+  --red-shade: #6e1c28;
+  --teal: #1d6b58;
+  --teal-shade: #0f3d33;
+  --brass: #c4842a;
+  --brass-shade: #8a5614;
+  --stage: #fffaf3;
+  color-scheme: dark;
+}
+
+* { box-sizing: border-box; }
+
+html, body { margin: 0; }
+
+body {
+  min-height: 100vh;
+  font-family: Outfit, "Avenir Next", "Segoe UI", sans-serif;
+  color: var(--paper);
+  background:
+    radial-gradient(900px 480px at 50% -8%, #3c2b22 0%, transparent 60%),
+    #14110e;
+}
+
+main {
+  width: min(980px, calc(100% - 32px));
+  margin: 0 auto;
+  padding: 48px 0 64px;
+}
+
+.eyebrow {
+  margin: 0 0 8px;
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: #e0b56a;
+}
+
+h1, h2, .empty-title, .card-title, .joke-text {
+  font-family: Fraunces, "Iowan Old Style", Palatino, Georgia, serif;
+  font-weight: 520;
+  letter-spacing: -0.02em;
+}
+
+h1 {
+  margin: 0;
+  font-size: clamp(3rem, 8vw, 5.4rem);
+  line-height: 0.92;
+  font-weight: 650;
+}
+
+.lede {
+  max-width: 38rem;
+  margin: 16px 0 0;
+  color: #e7dccb;
+  font-size: 1.12rem;
+  line-height: 1.45;
+}
+
+.keys {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+  margin-top: 36px;
+}
+
+.key {
+  appearance: none;
+  border: 0;
+  border-radius: 18px;
+  min-height: 148px;
+  padding: 18px 18px 14px;
+  color: #fffaf3;
+  text-align: left;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  transform: translateY(0);
+  transition: transform 80ms ease, box-shadow 80ms ease;
+}
+
+.key-joke { background: var(--red); box-shadow: 0 8px 0 var(--red-shade), 0 18px 30px rgba(0, 0, 0, 0.28); }
+.key-photo { background: var(--teal); box-shadow: 0 8px 0 var(--teal-shade), 0 18px 30px rgba(0, 0, 0, 0.28); }
+.key-video { background: var(--brass); box-shadow: 0 8px 0 var(--brass-shade), 0 18px 30px rgba(0, 0, 0, 0.28); }
+
+.key:hover { transform: translateY(-2px); }
+.key:active { transform: translateY(6px); }
+.key-joke:active { box-shadow: 0 2px 0 var(--red-shade); }
+.key-photo:active { box-shadow: 0 2px 0 var(--teal-shade); }
+.key-video:active { box-shadow: 0 2px 0 var(--brass-shade); }
+
+.key:focus-visible {
+  outline: 3px solid #fffaf3;
+  outline-offset: 3px;
+}
+
+.key-kicker {
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  opacity: 0.8;
+}
+
+.key-label {
+  font-family: Fraunces, Georgia, serif;
+  font-size: 1.7rem;
+  line-height: 1;
+  margin-top: auto;
+}
+
+.key-hint {
+  font-size: 0.85rem;
+  opacity: 0.75;
+}
+
+.stage {
+  margin-top: 28px;
+  background: var(--stage);
+  color: var(--ink);
+  border-radius: 22px;
+  min-height: 220px;
+  padding: 28px;
+  box-shadow: 0 24px 50px rgba(0, 0, 0, 0.28);
+}
+
+.empty { max-width: 28rem; }
+.empty-title { margin: 0 0 8px; font-size: 2rem; }
+.empty p:last-child { margin: 0; color: var(--muted); font-size: 1.05rem; }
+
+.card-kicker {
+  margin: 0 0 8px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.joke-text {
+  margin: 0;
+  font-size: clamp(1.55rem, 3vw, 2.15rem);
+  line-height: 1.25;
+}
+
+.status {
+  margin: 16px 0 0;
+  color: var(--muted);
+  min-height: 1.4em;
+}
+
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 18px;
+}
+
+.solid-btn, .text-btn {
+  appearance: none;
+  border-radius: 999px;
+  padding: 10px 16px;
+  font: 600 0.95rem/1 Outfit, "Avenir Next", sans-serif;
+  cursor: pointer;
+}
+
+.solid-btn {
+  border: 0;
+  background: var(--ink);
+  color: var(--paper);
+}
+
+.text-btn {
+  border: 1px solid var(--line);
+  background: transparent;
+  color: var(--ink);
+}
+
+.solid-btn:focus-visible, .text-btn:focus-visible {
+  outline: 3px solid #c4842a;
+  outline-offset: 2px;
+}
+
+.photo-frame {
+  background: #1c140f;
+  border-radius: 14px;
+  overflow: hidden;
+}
+
+.photo-frame img {
+  display: block;
+  width: 100%;
+  max-height: 72vh;
+  object-fit: contain;
+  margin: 0 auto;
+}
+
+.card-title { margin: 16px 0 6px; font-size: 1.8rem; }
+.note { margin: 0; color: var(--muted); }
+
+.frame {
+  position: relative;
+  aspect-ratio: 16 / 9;
+  background: #1c140f;
+  border-radius: 14px;
+  overflow: hidden;
+}
+
+.frame iframe { width: 100%; height: 100%; border: 0; }
+
+footer {
+  margin-top: 22px;
+  color: #b3a494;
+  font-size: 0.88rem;
+  line-height: 1.45;
+}
+
+footer p { margin: 0; }
+
+dialog {
+  border: 0;
+  border-radius: 20px;
+  padding: 28px;
+  width: min(440px, calc(100% - 32px));
+  background: var(--stage);
+  color: var(--ink);
+  box-shadow: 0 24px 60px rgba(0, 0, 0, 0.4);
+}
+
+dialog::backdrop { background: rgba(12, 9, 7, 0.72); }
+
+dialog h2 { margin: 0 0 8px; font-size: 2.2rem; }
+dialog p:last-of-type { margin: 0; color: var(--muted); line-height: 1.45; }
+
+.gate-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  margin-top: 22px;
+}
+
+@media (max-width: 740px) {
+  main { padding-top: 32px; }
+  .keys { grid-template-columns: 1fr; }
+  .key { min-height: 0; flex-direction: row; align-items: baseline; gap: 12px; padding: 16px 18px; }
+  .key-label { margin-top: 0; font-size: 1.45rem; }
+  .key-hint { margin-left: auto; }
+  .stage { padding: 20px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .key { transition: none; }
+}
